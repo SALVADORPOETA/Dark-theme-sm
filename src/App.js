@@ -30,8 +30,10 @@ function App() {
             <label>Password</label>
             <input type='password' placeholder='Enter your password' />
             <div className="remember" >
-              <input type='checkbox' checked='checked' />
-              <p>Remember Me</p>
+              <input id='checkbox' type='checkbox' checked='checked' />
+              <label for='checkbox' >
+                <p>Remember Me</p>
+              </label>
             </div>
             <button>Log In</button>
           </form>
